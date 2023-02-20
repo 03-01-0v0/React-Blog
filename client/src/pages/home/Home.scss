@@ -1,0 +1,35 @@
+.header {
+    &Home {
+        margin-top: 40px;
+    }
+
+    &Titles {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #444;
+    }
+
+    &TitleSm {
+        position: absolute;
+        top: 10%;
+        font-size: 20px;
+    }
+
+    &TitleLg {
+        position: absolute;
+        top: 15%;
+        font-size: 100px;
+    }
+
+    &Bg {
+        width: 100%;
+        height: 450px;
+        margin-top: 80px;
+        object-fit: cover;
+    }
+}
+
+.home {
+    display: flex;
+}
